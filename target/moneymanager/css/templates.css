@@ -1,0 +1,40 @@
+
+/* general settings */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header styling */
+.header-box{
+    display: flex;
+    width: 100%;
+    background-color: beige;
+    justify-content: center;
+}
+
+.title-box{
+    border-bottom: solid black 3px;
+    margin-bottom: 1rem;
+}
+
+.title-box h2{
+    color: black;
+    font-size: xx-large;
+    margin: .5rem 0;
+}
+
+
+/* footer settings */
+
+.footer-box{
+    background-color: beige;
+    margin-top: auto;
+}
+
+.copyright-box{
+    margin-left: 1rem;
+}

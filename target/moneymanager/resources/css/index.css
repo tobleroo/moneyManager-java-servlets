@@ -1,0 +1,64 @@
+/* first page styling */
+.main-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box{
+    margin-top: 1rem;
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: .3rem;
+}
+
+.input-box{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: .4rem;
+    font-size:x-large;
+}
+
+.input-box input{
+    border: none;
+    outline: none;
+    border-bottom: solid rgb(225, 225, 147) 3px;
+    border-top: solid rgb(239, 239, 144) 3px;
+    font-size: x-large;
+    margin: .4rem 0;
+}
+
+.input-box input:focus{
+    outline: none;
+}
+
+.optional-input-box{
+    display: none;
+}
+
+.optional-button-box{
+    text-align: center;
+}
+
+.optional-button-box button{
+    background-color: green;
+    border-radius: 15px;
+    color: beige;
+    border: none;
+    padding: .3rem .4rem;
+}
+
+.optional-button-box button:hover{
+    cursor: pointer;
+}
+
+.submit-box{
+    margin: 1rem;
+}
+
+.submit-box input{
+    font-size: large;
+    background-color: blue;
+    color: beige;
+    border-radius: 15px;
+}

@@ -1,0 +1,40 @@
+.show-budget-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.details-card{
+    border: solid blue 2px;
+    margin: 1rem;
+}
+
+.spendersbox{
+    background-color: red;
+}
+
+.savers-box{
+    background-color: green;
+}
+
+.title-box{
+    background-color: beige;
+    padding: 1rem;
+    font-size: xx-large;
+}
+
+.general-details-box{
+    font-size: x-large;
+}
+
+.savings-details-box h4{
+    text-align: center;
+    font-size: x-large;
+}
+
+.savings-details-box p{
+    margin: 0;
+    padding: .1rem;
+    border-bottom: 1px solid blue;
+    font-size: larger;
+}
